@@ -36,3 +36,7 @@ Use the provided information to create a table schema for each of the six CSV fi
 7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
 8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+
+### References
+
+Tutorialspoint (2024). How to apply EXTRACT() function with WHERE Clause on the dates stored in MySQL table? Retrieved from https://www.tutorialspoint.com/How-to-apply-EXTRACT-function-with-WHERE-Clause-on-the-dates-stored-in-MySQL-table
