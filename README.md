@@ -1,22 +1,22 @@
 ## SQL Challenge
 
 ## Background
-It’s been two weeks since you were hired as a new data engineer at Pewlett Hackard (a fictional company). Your first major task is to do a research project about people the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files. For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into an SQL database, and then answer questions about the data. That is, you’ll perform data modeling, data engineering, and data analysis, respectively.
+It’s been two weeks since you were hired as a new data engineer at Pewlett Hackard (a fictional company). Your first major task is to do a research project about people the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files. in this project, tables were designed to hold the data from the CSV files, then the CSV files were imported into an SQL database, and then answers were provoded for the challenge questions about the data. Data modeling, data engineering, and data analysis, were performed respectively.
 
 
 ## Instructions
-This Challenge is divided into three parts: data modeling, data engineering, and data analysis.
+This challenge is divided into three parts: data modeling, data engineering, and data analysis.
 
 
 ### Data Modeling
-Inspect the CSV files, then sketch an Entity Relationship Diagram of the tables. To create the sketch, feel free to use a tool like QuickDBDLinks to an external site.
+Inspect the CSV files, then sketch an Entity Relationship Diagram of the tables.
 
 ### Data Engineering
-Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
+Create a table schema for each of the six CSV files. 
 
-- Remember to specify the data types, primary keys, foreign keys, and other constraints.
+- Specify the data types, primary keys, foreign keys, and other constraints.
 - For the primary keys, verify that the column is unique. Otherwise, create a composite key link to an external site., which takes two primary keys to uniquely identify a row.
-- Be sure to create the tables in the correct order to handle the foreign keys.
+- Create the tables in the correct order to handle the foreign keys.
 - Import each CSV file into its corresponding SQL table.
 
 
@@ -29,7 +29,7 @@ Use the provided information to create a table schema for each of the six CSV fi
 
 4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
 
-5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+5. List the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
 
 6. List each employee in the Sales department, including their employee number, last name, and first name.
 
